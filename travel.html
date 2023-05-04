@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAVEL</title>
+</head>
+<body>
+    <a href="./index.html">HOME</a>
+    <h1>
+        Travel reservation form
+    </h1>
+    <h2> * denotes mandotory</h2>
+     <div> 
+        <label>
+    <b> Full name*:</b>
+         <input type="text" id="names" placeholder="First name Last name" required pattern>
+        </label>
+    </div>
+    <div>
+        <label> <br>
+          <b>  Email Address*: </b>
+            <input type="email" id="names" placeholder="EMAIL ADDRESS" required pattern>
+        </label>
+    </div>
+   <div>
+        <label >
+            Select Tour Package*: <br>
+    <Select> 
+        <option> Goa </option>
+        <option selected > Kolkata </option>
+        <option > Dilli </option>   
+        </select>
+        </label>
+   </div>
+    <p>
+        Arrival date*: <br>
+        <input type="date">
+    </p>
+    <div>
+        <label >
+            Number of Persons*: 
+            <input type="number" placeholder="UNKNOWN_TYPE" name="" id="number"> 
+        </label>
+    </div>
+    <p>
+        What would you want to avail?* <br>
+            Boarding <input type="checkbox" name=""> <br>
+             Fooding <input type="checkbox"  name=""> <br>
+              Sight seeing <input type="checkbox"  name="">
+                </p>
+                <div>
+                    <label>
+                        Disscout Coupon code: 
+                        <input ty pe="code" placeholder="UNKNOWN_TYPE">
+                    </label>
+                </div>
+                  
+    <p>
+        TErms and conditions* <br>
+        <input type="radio" name="gender"> I agree
+        <input type="radio" name="gender"> I disagree
+     </p>
+     
+   <p> <input type="submit" value="Complete reservation"></p>
+</body>
+</html>
